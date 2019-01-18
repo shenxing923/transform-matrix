@@ -6,7 +6,7 @@ export default {
   input: 'src/index.js',
   output: {
   	name: 'TransformMatrix',
-    file: pkg.main,
+    file: `dist/${pkg.name}.js`,
     format: 'umd'
   },
   plugins:[
